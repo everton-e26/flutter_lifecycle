@@ -6,11 +6,6 @@ Get access to Flutter's life cycle on StatelessWidgets
 
 You should ensure that you add the flutter_lifecycle as a dependency in your flutter project.
 
-```yaml
-dependencies:
-  flutter_lifecycle: "^0.0.1"
-```
-
 read more at [how to install](https://pub.dev/packages/flutter_lifecycle#-installing-tab-)
 
 ## Usage
