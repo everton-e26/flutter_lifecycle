@@ -1,3 +1,7 @@
+## [0.1.2] - Aug 13, 2019
+
+- OnInitAsync
+
 ## [0.1.1] - Aug 13, 2019
 
 - Readme instructions

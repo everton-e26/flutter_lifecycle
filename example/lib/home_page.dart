@@ -4,7 +4,7 @@ import 'package:flutter_lifecycle/flutter_lifecycle.dart';
 class HomePage extends StatelessWidget {
   //on init function
   //pass to the LifeCycleWidget
-  Dispose _onInit(BuildContext context) {
+  _onInit(BuildContext context) {
     //good to showDialogs only when the widget init
     showDialog(
         context: context,
@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
     //if you need do something on dispose
     //return a Function()
     return () {
-      print("on dispose");
+      print("disposing");
     };
   }
 
