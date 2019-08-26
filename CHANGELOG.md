@@ -1,3 +1,7 @@
+## [0.2.0] - Aug 26, 2019
+
+- Renamed LifeCycleWidget to LifeCycleBuilder
+
 ## [0.1.2] - Aug 13, 2019
 
 - OnInitAsync
