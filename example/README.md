@@ -13,7 +13,7 @@ import 'package:flutter_lifecycle/flutter_lifecycle.dart';
 
 class HomePage extends StatelessWidget {
   //on init function
-  //pass to the LifeCycleWidget
+  //pass to the LifeCycleBuilder
   Dispose _onInit(BuildContext context) {
     //good to showDialogs only when the widget init
     showDialog(
@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: LifeCycleWidget(
+      body: LifeCycleBuilder(
         //set on init function
         onInit: _onInit,
         //builder function

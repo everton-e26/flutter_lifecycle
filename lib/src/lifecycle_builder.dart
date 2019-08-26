@@ -5,13 +5,13 @@ typedef InitAsync = Future<Dispose> Function(BuildContext context);
 typedef Dispose = Function();
 typedef Builder = Widget Function(BuildContext context);
 
-class LifeCycleWidget extends StatefulWidget {
+class LifeCycleBuilder extends StatefulWidget {
   final Builder builder;
   final Init onInit;
   final Dispose onDispose;
   final InitAsync onInitAsync;
 
-  const LifeCycleWidget(
+  const LifeCycleBuilder(
       {Key key,
       @required this.builder,
       this.onInit,
@@ -20,10 +20,10 @@ class LifeCycleWidget extends StatefulWidget {
       : super(key: key);
 
   @override
-  _LifeCycleWidgetState createState() => _LifeCycleWidgetState();
+  _LifeCycleBuilderState createState() => _LifeCycleBuilderState();
 }
 
-class _LifeCycleWidgetState extends State<LifeCycleWidget> {
+class _LifeCycleBuilderState extends State<LifeCycleBuilder> {
   final List<Dispose> _diposerFunctionList = [];
 
   @override

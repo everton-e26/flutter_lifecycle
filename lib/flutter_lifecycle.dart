@@ -1,3 +1,3 @@
 library flutter_lifecycle;
 
-export './src/lifecycle_widget.dart';
+export './src/lifecycle_builder.dart';
