@@ -1,7 +1,6 @@
 name: flutter_lifecycle
 description: Get access to Flutter's life cycle on StatelessWidgets. It adds the ability to run onInit and onDispose to StatelessWidget
 version: 0.2.0
-author: Everton Santos <everton.build@gmail.com>
 homepage: https://github.com/everton-e26/flutter_lifecycle
 
 environment:
